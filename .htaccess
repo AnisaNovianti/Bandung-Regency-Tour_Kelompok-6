@@ -1,0 +1,9 @@
+RewriteEngine ON
+RewriteRule ^paketwisatas/?$ Paketwisatas.php [NC,L]
+RewriteRule ^Paketwisatas/([0-9]+)/?$ paketwisatas.php?id=$1 [NC,L]
+RewriteRule ^infohotels/?$ Infohotels.php [NC,L]
+RewriteRule ^Infohotels/([0-9]+)/?$ infohotels.php?id=$1 [NC,L]
+RewriteRule ^infowisatas/?$ Infowisatas.php [NC,L]
+RewriteRule ^Infowisatas/([0-9]+)/?$ infowisatas.php?id=$1 [NC,L]
+RewriteRule ^users/?$ Users.php [NC,L]
+RewriteRule ^Users/([0-9]+)/?$ users.php?id=$1 [NC,L]
